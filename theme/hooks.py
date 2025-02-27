@@ -1,4 +1,4 @@
-app_name = "corporate"
+app_name = "corporate_theme"
 app_title = "Corporate theme"
 app_publisher = ""
 app_description = "Corporate Theme for Frappe Framework"

@@ -1,8 +1,9 @@
-## Original creator for this is from user newara 
+## Frappe V15 Theme
 
-Original link here to git: https://github.com/half-ware/newara
+This is for personal use and for testing purpose on implementing frappe version 15 theme. 
 
-<img src="newara.PNG">
+Original creator is newara
+Original link to their git: https://github.com/half-ware/newara
 
 #### For login page:
 <p>

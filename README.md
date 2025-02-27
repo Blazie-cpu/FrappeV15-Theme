@@ -11,7 +11,7 @@ Original link to their git: https://github.com/half-ware/newara
 Add the css file in Website Settings, Header TAB:<br>
 &lt;link rel="stylesheet" href="/assets/newara/css/newara.css"&gt;
 </p>
-<img src="login.PNG">
+
 
 #### License
 

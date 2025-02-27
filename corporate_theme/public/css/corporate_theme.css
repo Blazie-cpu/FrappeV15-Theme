@@ -1,5 +1,19 @@
 
 /* Color Templetes */
+/*:root {
+	--bg-color:  #e5e8eb;
+	--btn-primary: #714B67;
+	--btn-secondary: #017E8480;
+	--secondary: #017E84;
+	--navbar-bg: #714B67;
+	--text-btn-color: white;
+	--table-border-color: #714b6740;
+	--btn-default-hover-bg: white;
+	--sidebar-select-color: #017E8420;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--text-base: 14px;
+}
+*/
 /* TODO: Decide on color templetes and list the color codes here */
 
 :root {

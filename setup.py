@@ -1,24 +1,17 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 from setuptools import setup, find_packages
-import re, ast
 
-with open('requirements.txt') as f:
-	install_requires = f.read().strip().split('\n')
+with open("requirements.txt") as f:
+	install_requires = f.read().strip().split("\n")
 
-# get version from __version__ variable in kard_theme/__init__.py
-_version_re = re.compile(r'__version__\s+=\s+(.*)')
-
-with open('corporate/__init__.py', 'rb') as f:
-	version = str(ast.literal_eval(_version_re.search(
-		f.read().decode('utf-8')).group(1)))
+# get version from __version__ variable in tekton_theme/__init__.py
+from corporate_theme import __version__ as version
 
 setup(
-	name='Corporate',
+	name="corporate_theme",
 	version=version,
-	description='Professional Theme for Frappe aligned with usability',
-	author='Blazie-cpu, Farhan',
-	author_email='',
+	description="Corporate Theme for Frappe",
+	author="Blazie-cpu&Farhan",
+	author_email="",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

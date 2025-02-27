@@ -1,17 +1,14 @@
-## Frappe V15 Theme
+# Corporate Theme for Frappe V15
 
-This is for personal use and for testing purpose on implementing frappe version 15 theme. 
+A clean and corporate compatible theme for frappe (V15) with custom color scheme.
+Based on the Newara Theme by half-ware. 
 
-Original creator is newara
-<p>
-Original link to their git: https://github.com/half-ware/newara
+*The code is provided as is and serves as our experimental project*
 
-#### For login page:
-<p>
-Add the css file in Website Settings, Header TAB:<br>
-&lt;link rel="stylesheet" href="/assets/newara/css/newara.css"&gt;
-</p>
+## Credit
 
+Based on Newara Theme by half-ware
+Original project link: https://github.com/half-ware/newara
 
 #### License
 

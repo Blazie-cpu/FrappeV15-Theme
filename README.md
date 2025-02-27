@@ -3,6 +3,7 @@
 This is for personal use and for testing purpose on implementing frappe version 15 theme. 
 
 Original creator is newara
+<p>
 Original link to their git: https://github.com/half-ware/newara
 
 #### For login page:

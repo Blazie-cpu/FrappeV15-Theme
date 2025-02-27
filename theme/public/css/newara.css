@@ -1,3 +1,7 @@
+
+/* Color Templetes */
+/* TODO: Decide on color templetes and list the color codes here */
+
 :root {
 	--bg-color:  #e5e8eb;
 	--btn-primary: #714B67;
@@ -146,7 +150,7 @@ a.onboard-spotlight .link-content:hover {
 }
 
 .level.list-row-head, .level.list-row-head .level-item {
-	font-weight:bold;
+	font-weight:light;
 	background-color: var(--gray-300);
 }
 .list-row-container .list-row:hover{

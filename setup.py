@@ -14,11 +14,11 @@ with open('newara/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='newara',
+	name='Corporate Theme',
 	version=version,
-	description='Custom Frappe Theme',
-	author='H@LFWARE',
-	author_email='contact@half-ware.com',
+	description='Professional Theme for Frappe aligned with usability',
+	author='Blazie-cpu, Farhan',
+	author_email='',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

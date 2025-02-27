@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 # get version from __version__ variable in kard_theme/__init__.py
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('corporate/__init__.py', 'rb') as f:
+with open('theme/corporate/__init__.py', 'rb') as f:
 	version = str(ast.literal_eval(_version_re.search(
 		f.read().decode('utf-8')).group(1)))
 

@@ -14,7 +14,7 @@ with open('corporate/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='Corporate Theme',
+	name='Corporate',
 	version=version,
 	description='Professional Theme for Frappe aligned with usability',
 	author='Blazie-cpu, Farhan',

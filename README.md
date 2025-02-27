@@ -1,7 +1,7 @@
-## NEWARA
+## Original creator for this is from user newara 
 
-TEMPLATE FRAPPE NEWARA
-CSS DESIGN LIKE ODOO
+Original link here to git: https://github.com/half-ware/newara
+
 <img src="newara.PNG">
 
 #### For login page:

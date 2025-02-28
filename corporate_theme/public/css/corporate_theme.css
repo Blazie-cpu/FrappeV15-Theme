@@ -18,11 +18,11 @@
 
 :root {
 	--bg-color:  #e5e8eb;
-	--btn-primary: #714B67;
-	--btn-secondary: #017E8480;
-	--secondary: #017E84;
+	--btn-primary: #fc3354;
+	--btn-secondary: #19aaeec0;
+	--secondary: #017e84a6;
 	--navbar-bg: #225af3;
-	--text-btn-color: white;
+	--text-btn-color: rgb(37, 36, 36);
 	--table-border-color: #714b6740;
 	--btn-default-hover-bg: white;
 	--sidebar-select-color: #017E8420;

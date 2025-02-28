@@ -15,13 +15,13 @@
 }
 */
 /* TODO: Decide on color templetes and list the color codes here */
-      
+
 :root {
 	--bg-color:  #e5e8eb;
-	--btn-primary: #1073c4;
-	--btn-secondary: #404242c0;
-	--secondary: #0336c0;
-	--navbar-bg: #fa3174;
+	--btn-primary: #714B67;
+	--btn-secondary: #017E8480;
+	--secondary: #017E84;
+	--navbar-bg: #714B67;
 	--text-btn-color: white;
 	--table-border-color: #714b6740;
 	--btn-default-hover-bg: white;

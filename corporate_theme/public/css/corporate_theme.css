@@ -17,11 +17,11 @@
 /* TODO: Decide on color templetes and list the color codes here */
 
 :root {
-	--bg-color:  #afafaf;
+	--bg-color:  #ffffff;
 	--btn-primary: #fc3354;
 	--btn-secondary: #19aaeec0;
-	--secondary: #017e84a6;
-	--navbar-bg: #225af3;
+	--secondary: #0974eee7;
+	--navbar-bg: #5580f8cc;
 	--text-btn-color: rgb(37, 36, 36);
 	--table-border-color: #714b6740;
 	--btn-default-hover-bg: white;

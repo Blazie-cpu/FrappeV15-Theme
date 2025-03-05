@@ -14,6 +14,14 @@ override_whitelisted_methods = {
     "frappe.core.doctype.user.user.switch_theme": "corporate_theme.corporate_theme.overrides.user.user.switch_theme"
 }
 
+# insert and register desk theme
+desk_theme = {
+    "corporate_theme": {
+        "name": "Corporate Theme",
+        "icon": "fa fa-paint-brush",  # Theme icon (optional)
+    }
+}
+
 # include js, css files in header of desk.html
 app_include_js = ["corporate_theme.bundle.js"]
 app_include_css = "corporate_theme.bundle.css"

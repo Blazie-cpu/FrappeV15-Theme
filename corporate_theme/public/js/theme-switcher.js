@@ -9,12 +9,12 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 		return new Promise((resolve) => {
 			this.themes = [
 				{
-					name: "light",
+					name: "Light",
 					label:("Frappe Light"),
 					info:("Light Theme"),
 				},
 				{
-					name: "dark",
+					name: "Dark",
 					label:"Timeless Night",
 					info:"Dark Theme",
 				},
@@ -22,10 +22,9 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
           name:"corporate_theme",
           label: "Corporate Theme",
           info: "Corporate Theme"
-
         },
 				{
-					name: "automatic",
+					name: "Automatic",
 					label:"Automatic",
 					info:"Uses system's theme to switch between light and dark mode",
 				}

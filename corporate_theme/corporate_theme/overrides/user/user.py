@@ -10,7 +10,7 @@ import frappe
 
 @frappe.whitelist()
 def switch_theme(theme):
-    if theme in ["Dark", "Light", "Automatic", "Corporate Theme"]:
+    if theme in ["Dark", "Light", "corporate_theme", "Automatic"]:
         frappe.db.set_value("User", frappe.session.user, "desk_theme", theme)
         frappe.msgprint(f"Theme switched to {theme} successfully!")
     else:

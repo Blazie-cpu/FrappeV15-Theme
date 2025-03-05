@@ -1,0 +1,27 @@
+[data-theme="Red Hue"] {
+    --primary-color: #c62828;  // Dark Red
+    --secondary-color: #ff1744; // Light Red
+    --background-color: #1e1e1e; // Dark Background for contrast
+    --text-color: #ffffff;  // White text
+
+    // Buttons
+    --btn-primary-bg: var(--primary-color);
+    --btn-primary-hover-bg: #b71c1c;  // Slightly darker red
+    --btn-primary-text: var(--text-color);
+
+    // Navbar
+    --navbar-bg: var(--primary-color);
+    --navbar-text: var(--text-color);
+
+    // Cards
+    --card-bg: #2e2e2e;
+    --card-text: var(--text-color);
+
+    // Links
+    --link-color: var(--secondary-color);
+    --link-hover-color: #d50000;  // Darker red
+
+    // Inputs
+    --input-border: var(--primary-color);
+    --input-focus-border: var(--secondary-color);
+}

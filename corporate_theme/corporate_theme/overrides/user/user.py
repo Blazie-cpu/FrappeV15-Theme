@@ -20,4 +20,3 @@ def switch_theme(theme=None):  # Default to None to avoid the TypeError
         frappe.msgprint(f"Theme switched to {theme} successfully!")
     else:
         frappe.throw("Invalid theme selected.")
-)

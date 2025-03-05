@@ -11,7 +11,7 @@ app_license = "mit"
 
 # Whitelist override
 override_whitelisted_methods = {
-    "frappe.core.doctype.user.user": "corporate_theme.overrides.user.user"
+    "frappe.core.doctype.user.user.switch_theme": "corporate_theme.overrides.user.user.switch_theme"
 }
 
 # include js, css files in header of desk.html

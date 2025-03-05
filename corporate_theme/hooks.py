@@ -16,7 +16,7 @@ override_whitelisted_methods = {
 
 # include js, css files in header of desk.html
 app_include_js = ["corporate_theme.bundle.js"]
-app_include_css = "corporate_theme.bundle.scss"
+app_include_css = "corporate_theme.bundle.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/corporate_theme/css/corporate.css"

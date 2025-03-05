@@ -34,3 +34,14 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 		});
 	}
 }
+
+frappe.call({
+    method: "corporate_theme.overrides.user.switch_theme",
+    args: { theme: "corporate_theme" },
+    callback: function (r) {
+        if (!r.exc) {
+            frappe.show_alert({ message: "Theme switched successfully!", indicator: "green" });
+            location.reload();
+        }
+    }
+});

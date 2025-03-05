@@ -27,7 +27,12 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     name:"corporate-theme",
                     label: "Corporate Theme",
                     info: "Corporate Theme"
-                }
+                },
+				{
+                    name:"red-hue-theme",
+                    label: "Red Theme",
+                    info: "Red Theme"
+                },
 			];
 
 			resolve(this.themes);

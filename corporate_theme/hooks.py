@@ -9,16 +9,21 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+# Whitelist override
+override_whitelisted_methods = {
+    "frappe.core.doctype.user.user.switch_theme": "corporate_theme.overrides.switch_theme.switch_theme"
+}
+
 # include js, css files in header of desk.html
 app_include_js = ["corporate_theme.bundle.js"]
 app_include_css = "corporate_theme.bundle.css"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/corporate_themes/css/corporate.css"
-# web_include_js = "/assets/corporate_themes/js/corporate.js"
+# web_include_css = "/assets/corporate_theme/css/corporate.css"
+# web_include_js = "/assets/corporate_theme/js/corporate.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "corporate_themes/public/scss/website"
+# website_theme_scss = "corporate_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -36,7 +41,7 @@ app_include_css = "corporate_theme.bundle.css"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "corporate_themes/public/icons.svg"
+# app_include_icons = "corporate_theme/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -60,43 +65,43 @@ app_include_css = "corporate_theme.bundle.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "corporate_themes.utils.jinja_methods",
-# 	"filters": "corporate_themes.utils.jinja_filters"
+# 	"methods": "corporate_theme.utils.jinja_methods",
+# 	"filters": "corporate_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "corporate_themes.install.before_install"
-# after_install = "corporate_themes.install.after_install"
+# before_install = "corporate_theme.install.before_install"
+# after_install = "corporate_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "corporate_themes.uninstall.before_uninstall"
-# after_uninstall = "corporate_themes.uninstall.after_uninstall"
+# before_uninstall = "corporate_theme.uninstall.before_uninstall"
+# after_uninstall = "corporate_theme.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "corporate_themes.utils.before_app_install"
-# after_app_install = "corporate_themes.utils.after_app_install"
+# before_app_install = "corporate_theme.utils.before_app_install"
+# after_app_install = "corporate_theme.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "corporate_themes.utils.before_app_uninstall"
-# after_app_uninstall = "corporate_themes.utils.after_app_uninstall"
+# before_app_uninstall = "corporate_theme.utils.before_app_uninstall"
+# after_app_uninstall = "corporate_theme.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "corporate_themes.notifications.get_notification_config"
+# notification_config = "corporate_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -135,39 +140,39 @@ app_include_css = "corporate_theme.bundle.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"corporate_themes.tasks.all"
+# 		"corporate_theme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"corporate_themes.tasks.daily"
+# 		"corporate_theme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"corporate_themes.tasks.hourly"
+# 		"corporate_theme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"corporate_themes.tasks.weekly"
+# 		"corporate_theme.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"corporate_themes.tasks.monthly"
+# 		"corporate_theme.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "corporate_themes.install.before_tests"
+# before_tests = "corporate_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "corporate_themes.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "corporate_theme.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "corporate_themes.task.get_dashboard_data"
+# 	"Task": "corporate_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -181,13 +186,13 @@ app_include_css = "corporate_theme.bundle.css"
 
 # Request Events
 # ----------------
-# before_request = ["corporate_themes.utils.before_request"]
-# after_request = ["corporate_themes.utils.after_request"]
+# before_request = ["corporate_theme.utils.before_request"]
+# after_request = ["corporate_theme.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["corporate_themes.utils.before_job"]
-# after_job = ["corporate_themes.utils.after_job"]
+# before_job = ["corporate_theme.utils.before_job"]
+# after_job = ["corporate_theme.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -217,7 +222,7 @@ app_include_css = "corporate_theme.bundle.css"
 # --------------------------------
 
 # auth_hooks = [
-# 	"corporate_themes.auth.validate"
+# 	"corporate_theme.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

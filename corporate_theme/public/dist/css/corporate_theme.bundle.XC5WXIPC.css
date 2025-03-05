@@ -1,5 +1,5 @@
-/* ../../../../../../var/folders/h6/7wfd9t454m1f53y53z4sl22h0000gn/T/tmp-6885-kgsIfsGZtlqi/corporate_theme/corporate_theme/public/scss/corporate-theme.bundle.css */
-[data-theme=corporate-theme] {
+/* ../../../../../../var/folders/h6/7wfd9t454m1f53y53z4sl22h0000gn/T/tmp-6885-kgsIfsGZtlqi/corporate_theme/corporate_theme/public/scss/corporate_theme.bundle.css */
+[data-theme=corporate_theme] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
   --gray-200: #A1D0F7;
@@ -90,7 +90,7 @@
   --checkbox-focus-shadow: 0 0 0 2px var(--gray-600);
   color-scheme: dark;
 }
-[data-theme=corporate-theme] .chart-container {
+[data-theme=corporate_theme] .chart-container {
   --charts-label-color: var(--gray-300);
   --charts-axis-line-color: var(--gray-500);
   --charts-stroke-width: 5px;
@@ -102,63 +102,63 @@
   --charts-tooltip-bg: var(--gray-900);
   --charts-legend-label: var(--charts-label-color);
 }
-[data-theme=corporate-theme] .heatmap-chart g > rect[fill="#ebedf0"] {
+[data-theme=corporate_theme] .heatmap-chart g > rect[fill="#ebedf0"] {
   fill: var(--gray-700);
 }
-[data-theme=corporate-theme] .rating {
+[data-theme=corporate_theme] .rating {
   --star-fill: var(--gray-500);
 }
-[data-theme=corporate-theme] .rating .star-hover {
+[data-theme=corporate_theme] .rating .star-hover {
   --star-fill: var(--gray-400);
 }
-[data-theme=corporate-theme] .skeleton {
+[data-theme=corporate_theme] .skeleton {
   --skeleton-bg: var(--gray-800);
 }
-[data-theme=corporate-theme] ::-moz-selection {
+[data-theme=corporate_theme] ::-moz-selection {
   color: var(--text-color);
   background: var(--gray-500);
 }
-[data-theme=corporate-theme] ::selection {
+[data-theme=corporate_theme] ::selection {
   color: var(--text-color);
   background: var(--gray-500);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-blue: var(--bg-blue);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-light-blue: var(--bg-light-blue);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-dark-blue: var(--bg-dark-blue);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-green: var(--bg-green);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-yellow: var(--bg-yellow);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-orange: var(--bg-orange);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-red: var(--bg-red);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-gray: var(--bg-gray);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-grey: var(--bg-grey);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-darkgrey: var(--bg-darkgrey);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-purple: var(--bg-purple);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-pink: var(--bg-pink);
 }
-[data-theme=corporate-theme] .indicator {
+[data-theme=corporate_theme] .indicator {
   --indicator-dot-cyan: var(--bg-cyan);
 }
 /*# sourceMappingURL=.bundle.XC5WXIPC.css.map */

@@ -18,16 +18,17 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 					label:"Timeless Night",
 					info:"Dark Theme",
 				},
+        {
+          name:"corporate_theme",
+          label: "Corporate Theme",
+          info: "Corporate Theme"
+
+        },
 				{
 					name: "automatic",
 					label:"Automatic",
 					info:"Uses system's theme to switch between light and dark mode",
-				},
-                {
-                    name:"corporate-theme",
-                    label: "Corporate Theme",
-                    info: "Corporate Theme"
-                }
+				}
 			];
 
 			resolve(this.themes);
